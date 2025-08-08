@@ -326,7 +326,31 @@
     grid-template-columns:  1fr;
     gap: 10px;
     width: 100%;
+     .invoice-label {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .logo{
+    padding: 0;
+    margin: 0 auto;
+  }
+  .invoice-label h1{
+    align-items: center;
+    margin: 0 0 10px 0;
+    text-align: center;
+    padding: 0;
+    
+  }
+
+  .invoice-label p span{
+    padding: 0;
    
+  }
+
+  .invoice-label span{
+    padding: 0;
+    
+  }
    }
     }
  @media (max-width: 350px) {
@@ -346,7 +370,6 @@
     margin: 0 0 10px 0;
     text-align: center;
     padding: 0;
-    
   }
 
   .invoice-label p span{
@@ -356,9 +379,9 @@
 
   .invoice-label span{
     padding: 0;
-    
-  }
-}
+ }
+   }
+
 
 
 
